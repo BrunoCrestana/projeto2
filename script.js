@@ -6,5 +6,18 @@ function mudarTitulo() {
 }
 
 function mudarTexto() {
-  texto.style.color = 'red';
+
+  texto.style.color = 'black';
+  texto.style.backgroundColor = 'white';
+
+
+}
+
+function Cor(){
+  if (texto.style.color == 'red') {
+    texto.style.color = 'black';
+  }else{
+  texto.style.color ='red';
+  texto.style.backgroundColor ='white';
+  }
 }
